@@ -1,0 +1,25 @@
+In this program we have used SWITCH statements in C.
+This program gives the user a choice to choose a currency from the given options and convert it into other currencies given.
+Here we have taken 4 currencies ,i.e., Dollar, Rupees, Pound and Euro.
+There are 4 cases for each currency conversion. We can modify the value of currency with the actual value.
+We have used operators and swtich statements to create this program. 
+
+
+float - data type which is used to represent the floating point numbers. %f format specifier.
+switch - A switch statement allows a variable to be tested for equality against a list of values. 
+Each value is called a case, and the variable being switched on is checked for each switch case.
+syntax for swtich :
+switch(expression) {
+
+   case constant-expression  :
+      statement(s);
+      break; /* optional */
+	
+   case constant-expression  :
+      statement(s);
+      break; /* optional */
+  
+   /* you can have any number of case statements */
+   default : /* Optional */
+   statement(s);
+}
